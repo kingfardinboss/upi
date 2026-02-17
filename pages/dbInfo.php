@@ -4,10 +4,10 @@ date_default_timezone_set('Asia/Kolkata');
 
 function connect_database() {
 	$fetchType = "array";
-	$dbHost    = "localhost";
-	$dbLogin   = "instamed_upi2";
-	$dbPwd     = "instamed_upi2";
-	$dbName    = "instamed_upi2";
+	$dbHost    = "sql.freedb.tech";
+	$dbLogin   = "freedb_upilaskar";
+	$dbPwd     = "E#hq8k%qB7jnd$c";
+	$dbName    = "freedb_upilaskar";
 	$con       = mysqli_connect($dbHost, $dbLogin, $dbPwd, $dbName);
 	if (!$con) {
 		die("Database Connection failes" . mysqli_connect_errno());
