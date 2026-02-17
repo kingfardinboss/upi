@@ -16,8 +16,8 @@ function connect_database() {
 }
 
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USERNAME', 'instamed_upi2');
-define('DB_PASSWORD', 'instamed_upi2');
-define('DB_NAME', 'instamed_upi2');
+define('DB_HOST', 'sql.freedb.tech');
+define('DB_USERNAME', 'freedb_upilaskar');
+define('DB_PASSWORD', 'E#hq8k%qB7jnd$c');
+define('DB_NAME', 'freedb_upilaskar');
 ?>
